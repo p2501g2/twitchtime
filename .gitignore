@@ -2,6 +2,7 @@ xcdata/
 Misc/
 **.ipynb_checkpoints/
 AWS_owl/*.png
+AWS_owl/*.pyc
 AWS_owl/figures/
 **.ipynb
 **.csv
