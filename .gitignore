@@ -1,0 +1,7 @@
+xcdata/
+Misc/
+.ipynb_checkpoints/
+.png
+.csv
+AWS_owl/pickle_pile/*
+!AWS_owl/pickle_pile/dfg.pkl

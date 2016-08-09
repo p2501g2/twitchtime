@@ -1,0 +1,21 @@
+#Commands that I can think of
+
+pip install selenium
+
+#One of the xvfb commands, not sure which for ec2. I used first
+sudo apt-get install xvfb
+sudo apt-get install xvfb xserver-xephyr
+
+pip install pyvirtualdisplay
+
+
+sudo apt-get purge firefox
+apt-cache show firefox | grep Version
+sudo apt-get install firefox=45.0.2+build1-0ubuntu1
+sudo apt-mark hold firefox
+
+
+#scp -r -i ~/.ssh/djfkeypair1.pem ~/python_stuff/twitchtime/AWS_owl ubuntu@ec2-54-205-180-22.compute-1.amazonaws.com:~
+
+
+#scp -i ~/.ssh/djfkeypair1.pem ubuntu@ec2-54-205-180-22.compute-1.amazonaws.com:~/AWS_owl/second.png ~/python_stuff/twitchtime/AWS_owl
