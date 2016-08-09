@@ -13,9 +13,3 @@ sudo apt-get purge firefox
 apt-cache show firefox | grep Version
 sudo apt-get install firefox=45.0.2+build1-0ubuntu1
 sudo apt-mark hold firefox
-
-
-#scp -r -i ~/.ssh/djfkeypair1.pem ~/python_stuff/twitchtime/AWS_owl ubuntu@ec2-54-205-180-22.compute-1.amazonaws.com:~
-
-
-#scp -i ~/.ssh/djfkeypair1.pem ubuntu@ec2-54-205-180-22.compute-1.amazonaws.com:~/AWS_owl/second.png ~/python_stuff/twitchtime/AWS_owl
